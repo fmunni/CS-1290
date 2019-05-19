@@ -1,5 +1,4 @@
 import java.util.*;
-//import java.math.*;
 
 class FallingPath {
     public static int A[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
@@ -37,10 +36,4 @@ class FallingPath {
 
     }
 
-    public static int sum(int i, int j) {
-        int s = 0;
-        for (int k = i; k <= j; k++)
-            s += stones[k];
-        return s;
-    }
 }
