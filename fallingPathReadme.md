@@ -19,4 +19,4 @@ Pick max for the col in first row minFallPath(0,col), where col=0,N-1
 
 ### Subproblem:
 
-I think I need a grid to store the solution like dp[row,col]. Dp[row][col] stores min value for the path starting at row `row` and column `col`
+I need a grid to store the solution like dp[row,col]. Dp[row][col] stores min value for the path starting at row `row` and column `col`
